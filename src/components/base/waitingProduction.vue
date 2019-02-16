@@ -1,0 +1,86 @@
+<template>
+  <div class="waiting">
+  <svg class="lds-default" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"><circle cx="75" cy="50" fill="undefined" r="2.4">
+  <animate attributeName="r" values="2.4;2.4;4;2.4;2.4" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.917s"></animate>
+  <animate attributeName="fill" values="#ff765c;#ff765c;#fc4309;#ff765c;#ff765c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1s" begin="-0.917s"></animate>
+  </circle><circle cx="71.651" cy="62.5" fill="undefined" r="2.4">
+  <animate attributeName="r" values="2.4;2.4;4;2.4;2.4" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.833s"></animate>
+  <animate attributeName="fill" values="#ff765c;#ff765c;#fc4309;#ff765c;#ff765c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1s" begin="-0.833s"></animate>
+  </circle><circle cx="62.5" cy="71.651" fill="undefined" r="2.4">
+  <animate attributeName="r" values="2.4;2.4;4;2.4;2.4" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.75s"></animate>
+  <animate attributeName="fill" values="#ff765c;#ff765c;#fc4309;#ff765c;#ff765c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1s" begin="-0.75s"></animate>
+  </circle><circle cx="50" cy="75" fill="undefined" r="2.4">
+  <animate attributeName="r" values="2.4;2.4;4;2.4;2.4" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.667s"></animate>
+  <animate attributeName="fill" values="#ff765c;#ff765c;#fc4309;#ff765c;#ff765c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1s" begin="-0.667s"></animate>
+  </circle><circle cx="37.5" cy="71.651" fill="undefined" r="2.8288">
+  <animate attributeName="r" values="2.4;2.4;4;2.4;2.4" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.583s"></animate>
+  <animate attributeName="fill" values="#ff765c;#ff765c;#fc4309;#ff765c;#ff765c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1s" begin="-0.583s"></animate>
+  </circle><circle cx="28.349" cy="62.5" fill="undefined" r="3.36">
+  <animate attributeName="r" values="2.4;2.4;4;2.4;2.4" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.5s"></animate>
+  <animate attributeName="fill" values="#ff765c;#ff765c;#fc4309;#ff765c;#ff765c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1s" begin="-0.5s"></animate>
+  </circle><circle cx="25" cy="50" fill="undefined" r="3.8912">
+  <animate attributeName="r" values="2.4;2.4;4;2.4;2.4" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.417s"></animate>
+  <animate attributeName="fill" values="#ff765c;#ff765c;#fc4309;#ff765c;#ff765c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1s" begin="-0.417s"></animate>
+  </circle><circle cx="28.349" cy="37.5" fill="undefined" r="3.5712">
+  <animate attributeName="r" values="2.4;2.4;4;2.4;2.4" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.333s"></animate>
+  <animate attributeName="fill" values="#ff765c;#ff765c;#fc4309;#ff765c;#ff765c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1s" begin="-0.333s"></animate>
+  </circle><circle cx="37.5" cy="28.349" fill="undefined" r="3.04">
+  <animate attributeName="r" values="2.4;2.4;4;2.4;2.4" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.25s"></animate>
+  <animate attributeName="fill" values="#ff765c;#ff765c;#fc4309;#ff765c;#ff765c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1s" begin="-0.25s"></animate>
+  </circle><circle cx="50" cy="25" fill="undefined" r="2.5088">
+  <animate attributeName="r" values="2.4;2.4;4;2.4;2.4" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.167s"></animate>
+  <animate attributeName="fill" values="#ff765c;#ff765c;#fc4309;#ff765c;#ff765c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1s" begin="-0.167s"></animate>
+  </circle><circle cx="62.5" cy="28.349" fill="undefined" r="2.4">
+  <animate attributeName="r" values="2.4;2.4;4;2.4;2.4" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.083s"></animate>
+  <animate attributeName="fill" values="#ff765c;#ff765c;#fc4309;#ff765c;#ff765c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1s" begin="-0.083s"></animate>
+  </circle><circle cx="71.651" cy="37.5" fill="undefined" r="2.4">
+  <animate attributeName="r" values="2.4;2.4;4;2.4;2.4" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="0s"></animate>
+  <animate attributeName="fill" values="#ff765c;#ff765c;#fc4309;#ff765c;#ff765c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1s" begin="0s"></animate>
+  </circle></svg>
+  <span  class="waiting-time" v-text="'本次查询分析的数据量较大，您可继续等待或者缩小时间跨度再查询  ' + number + 's'"></span>
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    number: {
+      type: Number
+    }
+  }
+};
+</script>
+<style>
+.waiting {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 500000;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.waiting svg {
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  -webkit-transform: translateY(-3rem);
+  transform: translateY(-3rem);
+}
+.waiting .waiting-time {
+  display: block;
+  width: 100%;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  -webkit-transform: translateY(-3rem);
+  transform: translateY(-3rem);
+  color: #ff7e00;
+  font-size: 1rem;
+}
+</style>
+
